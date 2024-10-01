@@ -1,22 +1,26 @@
-Welcome to Lumache's documentation!
+scMODAL
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+scMODAL is a deep learning framework tailored for single-cell multi-omics data alignment using feature links.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+scMODAL integrates datasets with limited known positively correlated features, leveraging neural networks and generative adversarial networks to align cell embeddings and preserve feature topology.
 
-.. note::
+It not only advances integration tasks but also supports downstream analyses such as feature imputation and inference of feature relationships, offering a robust solution for advancing single-cell multi-omics research.
 
-   This project is under active development.
+.. image:: images/Overview.png
+   :width: 800
 
-Contents
+scMODAL Tutorials
 --------
 
 .. toctree::
+   :maxdepth: 3
+   
+   tutorials/index.rst
 
-   usage
-   api
+
+scMODAL Installation
+--------
+.. toctree::
+
+   installation
