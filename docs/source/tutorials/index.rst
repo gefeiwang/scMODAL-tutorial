@@ -8,3 +8,4 @@ Tutorials
    bmc/index.rst
    teaseq/index.rst
    mouse_brain/index.rst
+   tonsil/index.rst
